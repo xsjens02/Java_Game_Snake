@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snake.Controller.ViewController">
+   <children>
+      <Label fx:id="lblScore" layoutX="14.0" layoutY="25.0" text="Label" textFill="WHITE" />
+      <Label fx:id="lblBodyCount" layoutX="14.0" layoutY="42.0" text="Label" textFill="WHITE" />
+      <Label fx:id="lblStart" layoutX="188.0" layoutY="283.0" text="Press 'ENTER' to start" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
